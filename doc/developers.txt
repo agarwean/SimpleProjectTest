@@ -1,0 +1,43 @@
+Konfiguracja bazy do testów integracyjnych.
+
+Ustawienia JDBC Connection pool-a
+
+user -> student
+password -> student
+databaseName ->  memoryTest (tutaj dowolność)
+serverName -> localhost (defaultowo, ale baza może być gdziekolwiek)
+portNumber -> 1527 (default dla derby)
+connectionAttributes -> ;create=true
+
+Ustawienia JDBC Resource
+
+nazwa -> jdbc/memoryTestDS
+poolName -> ma wskazywać na wcześniej skonfigurowany
+
+Domena glassfisha uruchamiana:
+
+    asadmin start-domain [nazwa-domeny]
+
+Baza uruchamiana poleceniem:
+
+    asadmin start-database
+
+
+Wymagane biblioteki na glassfishu.
+
+Biblioteki wrzucić do katalogu ${glassfish-home}/glassfish/domains/domain1/lib
+
+Biblioteki:
+
+antlr-2.7.6.jar
+commons-collections-3.2.1.jar
+dom4j-1.6.1.jar
+guava-18.0.jar
+hibernate-commons-annotations-3.2.0.Final.jar
+hibernate-core-3.6.7.Final.jar
+hibernate-entitymanager-3.6.7.Final.jar
+hibernate-jpa-2.0-api-1.0.1.Final.jar
+hibernate-tools-3.2.0.ga.jar
+hibernate-validator-4.2.0.Final.jar
+javassist-3.12.0.GA.jar
+slf4j-api-1.7.2.jar

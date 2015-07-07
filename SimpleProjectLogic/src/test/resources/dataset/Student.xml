@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<student student_id="1" address="ul. Pierwsza" birth_date="1980-12-02" birth_place="Szczecin"
+             email="malpa@gmail.com" forename="Krzysztof" name="Jarzyna" pesel="80120223987" phone_number="677788344" state="1"/>
+</dataset>

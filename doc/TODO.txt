@@ -1,0 +1,15 @@
+1) Plugin do testów integracyjnych.
+2) Osobny profil mavenowy, do odpalania testów integracyjnych.
+3) Poczytać Arquillian.
+4) JEE CDI Context Dependency Injection.
+5) Dodać metodę wyciągająca studentów z tabeli student.
+6) Doczytać arquillian persistence.xml.
+7) Bean validation i testy
+8) StudentEntity na Student
+9) Dopisać moduł webowy
+10) Stany encji
+11) dodac plugin failsafe
+
+12) Podpiąć Oracle'a
+13) Wypełnić tabelkę danymi z bazy (BeanItemContainer)
+14) Podpiąć walidatory do formy

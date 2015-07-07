@@ -1,0 +1,17 @@
+<arquillian xmlns="http://jboss.org/schema/arquillian"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://jboss.org/schema/arquillian
+        http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+	<engine>
+		<property name="deploymentExportPath">target/arquillian</property>
+	</engine>
+
+	<extension qualifier="persistence-dbunit">
+    	<!-- Na false przy uzywaniu excel datasets -->
+    	<property name="excludePoi">true</property>
+    	<!-- Dostep poprzez pelna nazwe SCHEMA.TABLE -->
+    	<!--<property name="qualifiedTableNames">true</property>-->
+    </extension>
+
+</arquillian>

@@ -1,0 +1,11 @@
+student:
+    - student_id: 1
+      address: ul. Po zmianie
+      birth_date: 1981-12-02
+      birth_place: Szczecin po zmianie
+      email: malpa_po_zmianie@gmail.com
+      forename: Krzysztof po zmianie
+      name: Jarzyna po zmianie
+      pesel: 123456789012
+      phone_number: 12345678
+      state: malopolskie
